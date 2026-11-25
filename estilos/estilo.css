@@ -1,6 +1,6 @@
 body {
     background-color:cornflowerblue;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', sans-serif;
 }
 
 nav ul {
@@ -68,8 +68,12 @@ address{
 }
 
 code {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8em;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 5px;
     padding-right: 5px;
     background-color: darkslategray;
-    color: orange;
+    color: yellow;
 }
