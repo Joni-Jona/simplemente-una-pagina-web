@@ -4,3 +4,5 @@ que quiera.
 Se trata de una página web en la que cada uno puede crearse los apartados que quiere, los estilos
 que quiera, subir archivos multimedia...
 La idea es repasar Git (entornos de desarrollo), HTML y CSS (lenguajes de marca).
+
+Para ver cómo está quedando la página, accede a: https://pavel77gs.github.io/simplemente-una-pagina-web/index.html
