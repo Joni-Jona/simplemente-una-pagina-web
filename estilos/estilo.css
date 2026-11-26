@@ -4,7 +4,7 @@ body {
 }
 
 nav ul {
-    background-color: white;
+    
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -14,8 +14,8 @@ nav ul {
 }
 
 nav {
-    margin: 0 auto;
-    max-width: 50%;
+    background-color: white;
+    max-height: 10%;
     color: darkblue;
     text-decoration: none;
 }
@@ -28,13 +28,18 @@ nav a:hover{
     text-decoration: underline;
 }
 
-header {
+header h1{
     font-family:'Gill Sans', sans-serif;
     text-transform: uppercase;
-    color:aliceblue;
+    color:white;
     text-align: center;
-    font-size: 24;
+    font-size: 48px;
+    transition: 0.5s;
 }
+header h1:hover{
+    color:aliceblue;
+}
+
 
 .seccion_simple {
     padding-left: 15px;
@@ -42,7 +47,15 @@ header {
     margin: 0 auto;
     max-width:95%;
     background-color: whitesmoke;
+    transform: scale(0.98);
+    transition: 0.3s;
 }
+
+.seccion_simple:hover{
+    transform: scale(1);
+    box-shadow: 8px 8px black;
+}
+
 
 figure {
     text-align: center;
@@ -51,10 +64,18 @@ figure {
     max-width:30%;
     padding: 15px 15px 15px 15px;
     color: #777;
+    transform: scale(0.98);
+    transition: 0.3s;
+}
+
+figure:hover{
+    transform: scale(1);
+    box-shadow: 8px 8px black;
 }
 
 figure img{
     max-height: 300px;
+    max-width: 90%;
 }
 
 .seccion_simple p:first-child{
@@ -76,4 +97,10 @@ code {
     padding-right: 5px;
     background-color: darkslategray;
     color: yellow;
+}
+
+#estilazo-texto {
+    color:magenta;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px lightpink;
 }
