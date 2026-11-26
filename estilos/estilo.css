@@ -36,6 +36,9 @@ header h1{
     font-size: 48px;
 }
 
+#actualizacion {
+    color: green;
+}
 
 .seccion_simple {
     padding-left: 15px;
