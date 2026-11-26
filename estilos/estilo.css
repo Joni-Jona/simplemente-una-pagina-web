@@ -34,10 +34,6 @@ header h1{
     color:white;
     text-align: center;
     font-size: 48px;
-    transition: 0.5s;
-}
-header h1:hover{
-    color:aliceblue;
 }
 
 
@@ -46,9 +42,10 @@ header h1:hover{
     padding-right: 15px;
     margin: 0 auto;
     max-width:95%;
-    background-color: whitesmoke;
+    background-color: white;
     transform: scale(0.98);
     transition: 0.3s;
+    padding-bottom: 1em;
 }
 
 .seccion_simple:hover{
@@ -61,6 +58,7 @@ figure {
     text-align: center;
     background-color:lightgray;
     margin: 0 auto;
+    margin-top: 1em;
     max-width:30%;
     padding: 15px 15px 15px 15px;
     color: #777;
@@ -79,7 +77,8 @@ figure img{
 }
 
 .seccion_simple p:first-child{
-    background-color: #EEE;
+    padding-left: 15px;
+    background-color: whitesmoke;
     color:blue;
 }
 
@@ -95,7 +94,7 @@ code {
     padding-bottom: 1px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: darkslategray;
+    background-color: black;
     color: yellow;
 }
 
