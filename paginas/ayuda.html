@@ -17,7 +17,22 @@
             <li><a href="ayuda.html"><h3>Ayuda</h3></a></li>
         </ul>
     </nav>
-
+    <section class="seccion_simple">
+        <p>Sección creada el <time datetime="2026-11-26">26/11/26</time></p>
+        <h2>Cuidado con main y master:</h2>
+        <ol>
+            <li>La rama principal en Github es main, si al crear tu fork y hacer init sale que estás en la rama master, cambiale el nombre a main con <code>git branch -m main</code></li>
+        </ol>
+    </section>
+    <section class="seccion_simple">
+        <p>Sección creada el <time datetime="2026-11-26">26/11/26</time></p>
+        <h2>Trabajando en otras ramas:</h2>
+        <ol>
+            <li>Si lo prefieres, haz los cambios en otra rama mediante <code>git switch -c TU_NUEVA_RAMA</code> para crear una nueva rama y cambiar a ella en un solo paso.</li>
+            <li>Una vez terminados los cambios, vuelve a la rama main: <code>git switch main</code> y usa el <code>git merge TU_NUEVA_RAMA</code>. Habrás fusionado
+            los cambios de TU_NUEVA_RAMA con la rama main.</li>
+        </ol>
+    </section>
     <section class="seccion_simple">
         <p>Sección creada el <time datetime="2026-11-25">25/11/26</time></p>
         <h2 class="titulo">¿Cómo puedo aportar?</h2>
@@ -49,11 +64,8 @@
         <ul>
             <li>Comprueba el estado del repositorio: <code>git status</code></li>
             <li>Comprueba las diferencias que no se han guardado: <code>git diff</code></li>
-            <li>Asegurate de estar en la rama main con <code>git branch</code>. Si no es el caso, usa <code>git branch -u main</code></li>
+            <li>Asegurate de estar en la rama main con <code>git branch</code>. Si no, usa <code>git switch main</code></li>
             <li>Mira la lista de cambios con <code>git log</code>, o con menos detalles: <code>git log --oneline</code></li>
-            <li>Si lo prefieres, haz los cambios en otra rama mediante <code>git switch -c TU_NUEVA_RAMA</code> para crear una nueva rama y cambiar a ella en un solo paso.</li>
-            <li>Una vez terminados los cambios, vuelve a la rama main: <code>git switch main</code> y usa el <code>git merge TU_NUEVA_RAMA</code>. Habrás fusionado
-            los cambios de TU_NUEVA_RAMA con la rama main.</li>
             <li>La primera vez que vayas a hacer un push, usa el parámetro -u para facilitar los siguientes pulls y pushes: <code>git push -u origin main</code></li>
             <li>Cualquier otra recomendación que tengas añádela aquí :)</li>
         </ul>
